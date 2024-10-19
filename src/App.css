@@ -1,0 +1,102 @@
+.App {
+  max-width: 500px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .image {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image img {
+  margin-left: -70px;
+  bottom: 0;
+  width: 300px;
+} */
+
+.image {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image img {
+  margin-left: -40px;
+  margin-top: -15px;
+  bottom: 0;
+  width: 210px;
+}
+
+h1 {
+  font-family: 'Alex Brush', cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  background-color: rgb(40, 22, 54);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 18px;
+  width: auto;
+}
+
+.view-album-btn {
+  background-color: rgb(121, 91, 146);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 18px;
+  width: auto;
+  margin-bottom: 35px;
+}
+
+span {
+  font-size: 14px;
+}
+
+label {
+  background-color: rgb(121, 91, 146);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 18px;
+  width: auto;
+}
+
+#file-chosen {
+  margin-top: 5px;
+  margin-left: 0.3rem;
+}
