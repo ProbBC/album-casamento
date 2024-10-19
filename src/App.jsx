@@ -65,7 +65,7 @@ function App() {
       <h1>Maria Eduarda & Rodrigo</h1>
 
       <form onSubmit={handleSubmit}>
-        <button onClick={handleViewAlbum} className="view-album-btn">Ver álbum</button>
+        <label onClick={handleViewAlbum} className="view-album-btn">Ver álbum</label>
 
         <input
           type="file"
