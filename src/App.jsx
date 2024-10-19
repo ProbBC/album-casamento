@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const URL = 'https://album-casamento-backend.onrender.com:10000/upload';
+const URL = 'album-casamento-backend:10000/upload';
 
 function App() {
   const [uploadImage, setUploadImage] = useState({ urls: [] });
