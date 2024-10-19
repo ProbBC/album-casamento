@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const URL = 'http://prob.ddns.net:3000/upload';
+const URL = 'https://prob.ddns.net:3000/upload';
 
 function App() {
   const [uploadImage, setUploadImage] = useState({ urls: [] });
